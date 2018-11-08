@@ -1,13 +1,13 @@
-Grayscale Jekyll theme
+Grayscale Jekyll theme testing for project
 =========================
 
 Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
 ## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+View this jekyll theme in action for this project -- look here [here](https://alexmerrill.github.io/veterans)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+
 
 =========
 For more details, read the [documentation](http://jekyllrb.com/)
