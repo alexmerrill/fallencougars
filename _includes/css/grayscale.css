@@ -258,8 +258,8 @@ a:focus {
     color: #fff;
     background: url(/veterans/img/memorial_larger.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
-    border: 1px solid;
-    boder-color: {{site.color.links}};
+    border-top: 1px solid;
+    border-top-color: {{site.color.links}};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
