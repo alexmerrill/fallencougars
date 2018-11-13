@@ -7,10 +7,10 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tinc
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#981e32'
 
 # Footer settings
-footer: Your Website
+footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
