@@ -7,7 +7,8 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tinc
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#981e32'
+  #links: '#981e32'
+  links: '#fff'
 
 # Footer settings
 footer:
