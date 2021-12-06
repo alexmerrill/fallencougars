@@ -1,4 +1,5 @@
-Grayscale Jekyll theme testing for project
+Grayscale Jekyll Fallen Cougars project:  https://static.libraries.wsu.edu/fallencougars
+
 =========================
 
 Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
