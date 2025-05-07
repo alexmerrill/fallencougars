@@ -291,6 +291,23 @@ a:focus {
     }
 }
 
+.button-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Space out columns evenly */
+    gap: 10px; /* Space between columns */
+}
+
+.column {
+    flex: 1; /* Equal width for all columns */
+    text-align: center;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
