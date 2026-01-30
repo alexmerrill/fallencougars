@@ -15,7 +15,7 @@ $(window).scroll(function() {
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -47,7 +47,8 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        // WSU Pullman, WA - Veterans Memorial location
+        center: new google.maps.LatLng(46.7319, -117.1542),
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -175,10 +176,11 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
-    var beachMarker = new google.maps.Marker({
+    var myLatLng = new google.maps.LatLng(46.7319, -117.1542);
+    var wsuMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        icon: image
+        icon: image,
+        title: 'WSU Veterans Memorial'
     });
 }
